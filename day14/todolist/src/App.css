@@ -1,0 +1,82 @@
+/* Main container */
+.todo-list {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.todo-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+/* Todo items */
+.todo-list li {
+  list-style: none;
+  background: #f8f8f8;
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 4px solid #4a90e2;
+  font-size: 18px;
+}
+
+/* Delete button */
+.todo-list button {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo-list button:hover {
+  background: #e60000;
+}
+
+/* Input + Add button container (from InputTodo component) */
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Input field */
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+.input-container input:focus {
+  border-color: #4a90e2;
+}
+
+/* Add button */
+.input-container button {
+  padding: 10px 16px;
+  background: #4a90e2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-container button:hover {
+  background: #3478c1;
+}
